@@ -73,11 +73,16 @@
 
 	var select = function (num) {
 		if (random == num) {
+			var snd = new Audio("pin.mp3");
+			snd.play();
 			document.getElementById('image').style.backgroundImage = "url(img/img2.jpg)";
 			clearTimeout(timer);
 			var message = "You Saved the Day!!!"
 			document.getElementById('clock').innerHTML = message;
 			document.getElementById('head').innerHTML =' ';
+		} else {
+			var snd = new Audio("mouse.mp3");
+			snd.play();
 		}
 	}		
 
