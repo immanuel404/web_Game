@@ -1,5 +1,5 @@
 # web_Game
-An online game based on time and speed_built with JavaScript.
+A simple online game that requires speed and precision to win_built with javascript.
 
 Play Game At: https://webcitizen.github.io/web_Game/
 
